@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
                     fragment,
                     LIST_NOTE_FRAGMENT_TAG
                 )
-                .addToBackStack(fragment.javaClass.name)
+                .disallowAddToBackStack()
                 .commit()
         } catch (illExc: IllegalArgumentException) {
             Log.e(ERROR_TAG, illExc.toString())
