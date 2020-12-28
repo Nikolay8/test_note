@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">test_note</string>
+    <string name="app_title">Note helper</string>
+    <string name="added_new_note">Add new note</string>
+    <string name="no_added_note">No added note</string>
+    <string name="save_note">Save note</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="create_note">Create new note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="delete_note">Delete note</string>
+    <string name="edit">EDIT</string>
+</resources>
